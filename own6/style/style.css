@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;500&display=swap');
+*{
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+.navbar {
+    
+    color: black !important;
+  }
+  .navContainer {
+    flex-direction: column;
+  }
+  @media (max-width: 575px) {
+      .navContainer {
+          flex-direction: row;
+      }
+      #navbarCollapse {
+          text-align: right;
+      }
+  }
+  .navbar a:hover {
+    border-bottom: 1px black solid;
+}
+ .banner1{
+    background-image: url(https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,fit=crop/gaonliteuojbs/img-A1aV6BlK2yfP6z8k.png);
+    background-size: cover;
+    background-position: center;   
+    height: 100vh;
+ 
+ }  
+ .banner2{
+    background-image: url(https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,fit=crop/gaonliteuojbs/img-Yyvea9g1naF5xGEr.png);
+    background-size: cover;
+    background-position: center;   
+    height: 60vh;
+ 
+ }  
+ .banner3{
+    background-image: url(https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,fit=crop/gaonliteuojbs/img-YNqznBwb6qUB9bgL.png);
+    background-size: cover;
+    background-position: center;   
+    height: 60vh;
+ }
+ .buy-1{
+  font-weight: bold;
+  border-style: none;
+  color: white;
+  background-color: black ;
+  width: 140px;
+  height: 50px;
+  text-decoration: none;
+  font-size: 14px;
+}
+.banner4{
+  background-image: url(https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,fit=crop/gaonliteuojbs/img-AVLO4xlL3wiGWQgz.png);
+  background-size: cover;
+  background-position: center;   
+  height: 70vh;
+}
+button:hover{
+  background-color: #BC8F8F;
+}
